@@ -1,15 +1,5 @@
 package geladeira;
 
-public class Ventilador {
+public class Ventilador extends Dispositivo {
 	
-	private boolean ligado;
-
-	public boolean isLigado() {
-		return ligado;
-	}
-
-	public void setLigado(boolean ligado) {
-		this.ligado = ligado;
-	}
-
 }
